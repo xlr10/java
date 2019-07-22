@@ -8,5 +8,7 @@ public class initClass {
         String name = null;
         System.out.println(StringUtils.isEmpty(name));
         System.out.println("asdasd3");
+        System.out.println("vision 2"); //??
+        System.out.println("vision 2"); //??
     }
 }
