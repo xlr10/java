@@ -28,32 +28,30 @@ public class exercise01 {
         for(String e : arryList){
             System.out.println(e);
         }
+
+      /*  //Anonymous Class 예시
+        anonymous asd = new anonymous(){
+
+            @Override
+            void whoAmI() {
+                super.whoAmI();
+                System.out.println("I'm Anonymous");
+            }
+        };
+
+        asd.whoAmI();*/
+
+
     }
+
 
     //override 없이 파라미터 전달로 arrylist 추가
     //override 안됨 = add() 오버라이드시 아래 메소드에서 사용 불가 -> 인터페이스화?
+    //생성자 오버라이드 제한
     private static void add_ArrayList(ArrayList arr,int cnt){   //ArrayList에 <> 형전달 없었는데 가능?
         for(int i = 0 ; i < cnt ; i++){
             arr.add(String.valueOf(i));
         }
     }
-
-    //Anonymous Class 예시
-    anonymous tmp = new anonymous(){
-        int num = 2;
-
-        @Override
-        void whoAmI() {
-            System.out.println("I'm Anonymous");
-        }
-    };
-
-
-
-
-
-    //생성자 오버라이드 제한
-
-
 
 }
