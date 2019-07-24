@@ -5,6 +5,5 @@ public class anonymous {
     void whoAmI(){
         System.out.println("I'm super");
 
-
     }
 }
